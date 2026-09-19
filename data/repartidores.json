@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos López",
+    "telefono": "3815551111",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "nombre": "Ana Martínez",
+    "telefono": "3815552222",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nombre": "Pedro Gómez",
+    "telefono": "3815553333",
+    "disponible": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Caja de tomates frescos",
+    "precio": 5500,
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "nombre": "Bolsa de papas",
+    "precio": 4000,
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "nombre": "Caja de lechuga",
+    "precio": 3000,
+    "stock": 10
+  }
+]

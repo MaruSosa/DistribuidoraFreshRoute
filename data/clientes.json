@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "telefono": "3815551234",
+    "email": "juan@email.com",
+    "direccion": "Av. Belgrano 123"
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "Gómez",
+    "telefono": "3815555678",
+    "email": "maria@email.com",
+    "direccion": "San Martín 456"
+  },
+  {
+    "id": 4,
+    "nombre": "Restaurante La Esquina",
+    "telefono": "3815557890",
+    "email": "laesquina@email.com",
+    "direccion": "San Martín 450"
+  }
+]
