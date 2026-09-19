@@ -4,12 +4,15 @@ const path = require("path");
 
 const clientesRoutes = require("./routes/clientesRoutes");
 const productosRoutes = require("./routes/productosRoutes");
+const repartidoresRoutes = require("./routes/repartidoresRoutes");
+
 const app = express();
 
 app.use(express.json());
 
 app.use("/clientes", clientesRoutes);
 app.use("/productos", productosRoutes);
+
 // Rutas de los archivos JSON
 const clientesPath = path.join(__dirname, "data", "clientes.json");
 const productosPath = path.join(__dirname, "data", "productos.json");
