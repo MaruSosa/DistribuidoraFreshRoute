@@ -22,5 +22,17 @@
     ],
     "repartidorId": null,
     "estado": "Cancelado"
+  },
+  {
+    "id": 3,
+    "clienteId": 1,
+    "productos": [
+      {
+        "productoId": 1,
+        "cantidad": 2
+      }
+    ],
+    "repartidorId": null,
+    "estado": "Preparado"
   }
 ]
