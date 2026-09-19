@@ -2,10 +2,13 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 
+const clientesRoutes = require("./routes/clientesRoutes");
+
 const app = express();
 
 app.use(express.json());
 
+app.use("/clientes", clientesRoutes);
 // Rutas de los archivos JSON
 const clientesPath = path.join(__dirname, "data", "clientes.json");
 const productosPath = path.join(__dirname, "data", "productos.json");
